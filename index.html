@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <title>
+        Portfolio
+    </title>
+
+    <meta name="description" content="I am a Cybersecurity student major student, experinced coding in Java and Python">
+    <meta name="keywords" content="Aleem, Cybersecurity, Tryhackme, Web Development, .NET, Python, Java" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header" role="banner" id="top">
+        <div class="row">
+
+            <nav class="nav" role="navigation">
+                <ul class="nav__items">
+
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="Blogs.html" class="nav__link">Blogs</a></li>
+                    <li class="nav__item"><a href="https://medium.com/@aleemS/list/writeups-5e958987be94" class="nav__link">Writeups</a></li>
+                    <li class="nav__item"><a href="https://medium.com/@aleemS/list/projects-446e0aab7599" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="https://tryhackme.com/p/syed02" class="nav__link">TryHackMe</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="footer__social-link-item">
+                        <a href="https://github.com/Aleem20?tab=repositories" title="Link to Github Profile">
+                            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a href=https://www.linkedin.com/in/aleemuddin-syed-7860/">
+                            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+                        </a>
+
+                    </li>
+
+
+                </ul>
+            </nav>
+
+            <img src="./images/happy-hacker .gif" class="header-image" alt="Happy Hacker">
+
+
+            <div class="header__text">
+                <h1 class="heading-primary">
+                    <span>Howdy!</span>
+                </h1>
+                <p>I'm Aleemuddin - a cybersecurity enthusiast, CTF player, and undergrad student. Always tinkering, eager to learn new stuff!</p>
+                <a href="#about" class="btn btn--pink">About me</a>
+
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+
+    <style>
+        .logos {
+            display: flex;
+            justify-content: center;
+            color: red;
+        }
+
+        .item {
+            text-align: center;
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+            .item h3 {
+                margin-top: 50px;
+                color: white;
+            }
+
+            .item p1 {
+                margin-top: 50px;
+                color: white;
+            }
+
+            .item p2 {
+                margin-top: 10px;
+                color: white;
+            }
+
+            .item p3 {
+                margin-top: 50px;
+                color: white;
+            }
+
+            .item p4 {
+                margin-top: 10px;
+                color: white;
+            }
+        .header-image {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-35%);
+            max-height: 699px;
+        }
+
+        @media (max-width: 768px) {
+            .header-image {
+                display: block;
+                position: relative;
+                top: 0;
+                right: 0;
+                transform: none;
+                max-width: 100%; /* Ensure the image doesn't exceed the container width */
+                margin: 20px auto; /* Add some margin for better spacing */
+            }
+        }
+    </style>
+
+    <section class="skill" id="skills">
+        <div class="row">
+            <div class="logos">
+                <div class="item">
+                    <img src="./images/hacking.png" class="logo" alt="Company 2" />
+                    <h3 class="sub-heading">Pentesting</h3>
+                    <p1>Skilled in network and web application security penetration testing, with a deep understanding of identifying, documenting vulnerabilities, and assessing associated risks. Experienced in replicating modern attack vectors to simulate real-world scenarios and providing suggested remediations for the identified vulnerabilities.</p1>
+                </div>
+
+                <div class="item">
+                    <img src="./images/digital.png" class="logo" alt="Company 2" />
+                    <h3 class="sub-heading">Incident Response</h3>
+                    <p2>Proficient in identifying, containing, eradicating, and recovering from security incidents. Comfortable with modern SIEM tools, network sniffers, setting up IDS/IPS, utilizing honeypots, and employing forensics tools.</p2>
+                </div>
+
+                <div class="item">
+                    <img src="./images/coding.png" class="logo" alt="Company 2" />
+                    <h3 class="sub-heading">Coding</h3>
+                    <p3>Experienced in coding with Java, Bash, HTML, PHP, and Python for various projects and automating enumeration tasks. Some knowledge of SQL for data-related projects.</p3>
+                </div>
+
+                <div class="item">
+                    <img src="./images/coding.png" class="logo" alt="Company 2" />
+                    <h3 class="sub-heading">Cyber Laws & Compliance</h3>
+                    <p4>Comprehensive knowledge of compliance principles, including PCI DSS, HIPAA, FERPA, NIST standards, and various other regulations. Efficient in navigating complex regulatory frameworks and ensuring adherence to stringent industry standards.</p4>
+                </div>
+            </div>
+
+            <style>
+                .tools_items {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+
+                    .tools_items li {
+                        margin-right: 60px;
+                        color: green;
+                        list-style-type: none;
+                    }
+            </style>
+
+            <div class="tools">
+                <h4 class="sub-heading"> Technical Profile</h4>
+                <p></p>
+                <ul class="tools_items">
+                    <li> Nessus</li>
+                    <li> Wireshark</li>
+                    <li> Splunk</li>
+                    <li> Linux</li>
+                    <li> Burpsuite</li>
+                    <li> Bash</li>
+                    <li> LAN</li>
+                    <li> Network Security</li>
+                    <li> ZAP</li>
+                    <li> Azure Active Directory Domain Services</li>
+                    <li> Virtualization</li>
+                    <li> Azure Cloud</li>
+                    <li>Snort</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="row">
+            <h2> About Me</h2>
+            <div class="about__content">
+                <div class="about__text">
+                   
+                    <p>
+                        I am an undergraduate student pursuing a Bachelor's degree in Science with a major in Cybersecurity and a minor in Computer Science. With a strong passion for programming, I have extensive experience in various projects written in Python and Java. I enjoy experimenting with Raspberry Pi, Arduino boards, and ESPs, exploring the realms of hardware and software integration.
+                    <p />
+                    <p>
+                        In my dedicated home lab, I have set up two servers, a NAS server and a type 1 hypervisor server enabling me to hone my red teaming skills and gain hands-on experience. My enthusiasm for cybersecurity is further demonstrated by my active involvement in the field. I consistently rank in the top 5% of users on the TryHackMe platform and actively participate in Capture The Flag (CTF) competitions, both locally and online. I take pride in my achievements, having emerged victorious in several CTF events.
+                    </p>
+                    <p>
+                        With over 3 years of IT experience, I am deeply committed to expanding my knowledge and expertise in the cybersecurity landscape, making meaningful contributions to the field. In addition, I also write blogs about new security threats and projects I do during my free time.
+                    </p>
+                   
+                    <a href="https://www.linkedin.com/in/aleemuddin-syed-7860/" class="btn"> Say Hi on LinkdeIn!</a>
+                </div>
+
+                <div class="about__photo-container">
+                    <img class="about__photo" src="./images/hacker.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    </main >
+
+
+    <main role="main">
+        <!--Work-->
+        <section class="work" id="work">
+            <div class="row">
+                <h2> My Work</h2>
+                <div class="work__boxes">
+                    <!-- Each div with the work__box class is a project. -->
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3> Frequency Analyis Program</h3>
+                            <p>
+                                This program allows you to obtain the frequency of each letter in the Monoalphabetic ciphertext file.
+                            </p>
+                            <ul class="work__list">
+                                <li> Python</li>
+                              
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/Aleem20/Monoalphabetic-decryption-program/tree/master" target="_blank" class="link__text">
+                                    GitHub <span> &rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/fa_1.png" class="work__image" alt="Project 1" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Caesar Cipher Bruteforcer</h3>
+                            <p>
+                                This is a simple Caesar Cipher brute-force program that tries every possible key to decrypt a message.
+                            </p>
+                            <ul class="work__list">
+                                <li> Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/Aleem20/Caesar-Cipher-Brute-force-Program" class="link__text">
+                                    GitHub <span> &rarr;</span>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/project2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3> Kevin Mitnick Attack Lab</h3>
+                            <p>
+                                This project focuses on the infamous Kevin Mitnick attack, providing a comprehensive walkthrough of various techniques. It covers the following key aspects: Sniffing and Spoofing, ARP Cache Poisoning Attack, IP Attacks, TCP Attacks, and the Mitnick Attack.
+                            </p>
+                            <ul class="work__list">
+                                <li> Python</li>
+                                <li> Scapy</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/Aleem20/Kevin-Mitnick-Attack" class="link__text">
+                                    GitHub <span> &rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/project3.png" class="work__image" alt="Project 3" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="row">
+                <h2> Get in Touch</h2>
+                <div class="contact__info">
+                    <p>
+                       <p> Are you in search of a dedicated cybersecurity professional to enhance your organization's security posture? Do you need consultation on securing your systems, have specific cybersecurity queries, or wish to share valuable insights? Whether you require assistance with building robust defenses for your business, need expert advice, or simply want to connect, I am here to help.
+                    </p>
+                       <p>
+                           As I develop my cybersecurity portfolio, I am enthusiastic about collaborating on various projects and challenges. Please feel free to reach out—your inquiries, feedback, or even just a friendly "Hi" are always welcome.
+                       </p>
+<p>
+                        I am committed to promptly addressing your needs. The most efficient way to contact me is via email. Let's work together to strengthen your digital security. 
+                    </p>
+                    
+                    <a href="mailto:aleems1@protonmail.com" class="btn"> Email</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer role="contentinfo" class="footer">
+            <div class="row">
+                
+                <ul class="footer__social-links">
+                    <li class="footer__social-link-item">
+                        <a href="https://github.com/Aleem20?tab=repositories" title="Link to Github Profile">
+                            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a href=https://www.linkedin.com/in/aleemuddin-syed-7860/">
+                            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+                        </a>
+
+                    </li>
+
+                </ul>
+                <a href="https://iconscout.com/lottie-animations/happy-hacker" class="text-underline font-size-sm" target="_blank">Happy Hacker</a>
+
+                <a href="#top" class="back-to-top" title="Back to Top">
+                    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+                </a>
+                <script src="./index.js"></script>
+</body>
+
+</html>
+<!-- *********Credit***********************
+                    <a href="https://iconscout.com/lottie-animations/happy-hacker" class="text-underline font-size-sm" target="_blank">Happy Hacker</a> by <a href="https://iconscout.com/contributors/paaniizk" class="text-underline font-size-sm" target="_blank">paniz</a>
+shoutout to https://nisar.dev for bulding this template!
+
+
+
+
+                    -->
